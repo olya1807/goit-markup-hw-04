@@ -33,8 +33,7 @@
               <a
                 class="navigation-list-link link active-item"
                 href="./portfolio.html"
-              >
-                Портфолио</a
+                >Портфолио</a
               >
             </li>
             <li class="navigation-list-item">
@@ -45,12 +44,16 @@
         <address class="header-address">
           <ul class="address-nav">
             <li class="address-list">
-              <a class="address-link link" href="mailto:info@devstudio.com"
+              <a class="address-link link" href="mailto:info@devstudio.com">
+                <svg width="16" height="11" class="address-icon">
+                  <use href="./images/sprite.svg#mail"></use></svg
                 >info@devstudio.com</a
               >
             </li>
             <li class="address-list">
-              <a class="address-link link" href="tel:+380961111111"
+              <a class="address-link link" href="tel:+380961111111">
+                <svg width="10" height="15" class="address-icon">
+                  <use href="./images/sprite.svg#smartphone"></use></svg
                 >+38 096 111 11 11</a
               >
             </li>
@@ -306,39 +309,60 @@
         <div>
           <b class="join">присоединяйтесь</b>
           <ul class="footer-social-list">
-            <li class="footer-social-item">
-              <a href="" aria-label="иконка инстаграма">
-                <img
-                  src="./images/social-icons/instagram.svg"
-                  alt="Иконка инстаграма"
-                />
+            <li class="flex-social-item">
+              <a
+                class="footer-social-list-item-link"
+                href=""
+                aria-label="иконка инстаграма"
+              >
+                <svg class="footer-social-list-icon-svg">
+                  <use href="./images/sprite.svg#instagram"></use>
+                </svg>
               </a>
             </li>
-            <li class="footer-social-item">
-              <a href="" aria-label="иконка твиттера">
-                <img
-                  src="./images/social-icons/twitter.svg"
-                  alt="Иконка твиттера"
-                />
+            <li class="flex-social-item">
+              <a
+                class="footer-social-list-item-link"
+                href=""
+                aria-label="иконка твиттера"
+              >
+                <svg class="footer-social-list-icon-svg">
+                  <use href="./images/sprite.svg#twitter"></use>
+                </svg>
               </a>
             </li>
-            <li class="footer-social-item">
-              <a href="" aria-label="иконка фейсбука">
-                <img
-                  src="./images/social-icons/facebook.svg"
-                  alt="Иконка фейсбука"
-                />
+            <li class="flex-social-item">
+              <a
+                class="footer-social-list-item-link"
+                href=""
+                aria-label="иконка фейсбука"
+              >
+                <svg class="footer-social-list-icon-svg">
+                  <use href="./images/sprite.svg#facebook"></use>
+                </svg>
               </a>
             </li>
-            <li class="footer-social-item">
-              <a href="" aria-label="иконка линкедина">
-                <img
-                  src="./images/social-icons/linkedin.svg"
-                  alt="Иконка линкедина"
-                />
+            <li class="flex-social-item">
+              <a
+                class="footer-social-list-item-link"
+                href=""
+                aria-label="иконка линкедина"
+              >
+                <svg class="footer-social-list-icon-svg">
+                  <use href="./images/sprite.svg#linkedin"></use>
+                </svg>
               </a>
             </li>
           </ul>
+        </div>
+        <div class="follow-us">
+          <b class="follow-us-mailing">Подпишитесь на рассылку</b>
+          <button class="footer-button">
+            Подписаться
+            <svg class="fly-icon">
+              <use href="./images/sprite.svg#icon-send"
+            </svg>
+          </button>
         </div>
       </div>
     </footer>
